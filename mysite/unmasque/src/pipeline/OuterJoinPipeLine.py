@@ -1,6 +1,6 @@
-from mysite.unmasque.src.core.outer_join import OuterJoin
-from mysite.unmasque.src.pipeline.ExtractionPipeLine import ExtractionPipeLine
-from mysite.unmasque.src.util.constants import OUTER_JOIN, START, RUNNING, DONE
+from ..core.outer_join import OuterJoin
+from .ExtractionPipeLine import ExtractionPipeLine
+from ..util.constants import OUTER_JOIN, START, RUNNING, DONE
 
 
 class OuterJoinPipeLine(ExtractionPipeLine):
