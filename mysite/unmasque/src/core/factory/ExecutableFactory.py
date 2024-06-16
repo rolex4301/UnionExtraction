@@ -1,5 +1,5 @@
-from mysite.unmasque.src.core.executable import Executable
-from mysite.unmasque.src.core.nullfree_executable import NullFreeExecutable
+from ..executable import Executable
+from ..nullfree_executable import NullFreeExecutable
 
 
 class ExecutableFactory:
